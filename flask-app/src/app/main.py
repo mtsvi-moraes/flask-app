@@ -39,5 +39,4 @@ def regressionAPI3params():
     return jsonify(insurance_cost= round(reg_3[0], 2))
 
 
-
 app.run(debug=True, host='0.0.0.0')
